@@ -13,7 +13,7 @@ class window(QtWidgets.QMainWindow):
         self.ui = Ui_MainWindow()
         self.ui.setupUi(self)
 
-        self.setWindowTitle("TestProject")
+        self.setWindowTitle("Customers and goods")
         self.setWindowIcon(QIcon("Logo.png"))
 
         self.loadProducts()
